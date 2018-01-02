@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+    background: #161616 url("./BG.jpg") center no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+#particles-js{
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+fieldset{
+    background-color:rgba(32, 32, 32, 0.8);
+    border: teal 1px solid;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+input{
+    color:white;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="bg">
+    <div id="particles-js"></div>
+        <div class="container-fluid">
+            <br><br><br>
+            <div class="row">
+                <div class="col s4 offset-s4">
+                    <center><h3 class="h4 white-text">Log In</h3></center>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col s4 offset-s4">
+                        <p class="flow-text white-text">Enter Following Details</p>
+                        <form action="">
+                         <fieldset class="z-depth-5">
+                          <div class="input-field col s12 l6">
+                            <input type="text" id="first_name" class="validate">
+                            <label for="first_name">First Name</label>
+                          </div>
+                          <div class="input-field col s12 l6">
+                            <input type="text" id="last_name" class="validate">
+                            <label for="last_name">Last Name</label>
+                          </div>
+                          <div class="input-field col s12">
+                            <input type="email" id="email" class="validate">
+                            <label for="email" data-error="wrong" data-success="right">Email</label>
+                          </div>
+                          <div class="input-field col s12">
+                            <input type="password" id="pass" class="validate">
+                            <label for="pass">Password</label>
+                          </div>
+                          <div class="input-field col s12">
+                                <center><button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                </button></center>
+                              </div>
+                        </fieldset>
+                        </form>
+                    
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js','particles.json', function(){
+            console.log('Particles loaded');
+        })
+    </script>
+
+    
+</body>
+</html>
